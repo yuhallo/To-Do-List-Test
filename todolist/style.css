@@ -1,0 +1,60 @@
+body {
+    margin : 10em;
+    background-color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    min-height: 100vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+}
+
+#task-input {
+    width: 18rem;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.task-area {
+    margin-top:  2em;
+}
+.task-tabs {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.task-tabs div{
+    padding: 1em;
+    cursor: pointer;
+}
+
+#underline {
+    height: 4px;
+    background-color: rgba(215, 240, 190, 0.74);
+    position: absolute;
+    width: 90px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.done {
+    text-decoration: line-through;
+}
